@@ -13,6 +13,9 @@
 		D3AF2BC626F52A18006A6D68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3AF2BC426F52A18006A6D68 /* Main.storyboard */; };
 		D3AF2BC826F52A1A006A6D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3AF2BC726F52A1A006A6D68 /* Assets.xcassets */; };
 		D3AF2BCB26F52A1A006A6D68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3AF2BC926F52A1A006A6D68 /* LaunchScreen.storyboard */; };
+		D3AF2BD326F76D46006A6D68 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF2BD226F76D46006A6D68 /* AboutViewController.swift */; };
+		D3AF2BD526F772CA006A6D68 /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF2BD426F772CA006A6D68 /* AuthorViewController.swift */; };
+		D3AF2BD726F7818D006A6D68 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = D3AF2BD626F7818D006A6D68 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D3AF2BC726F52A1A006A6D68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3AF2BCA26F52A1A006A6D68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3AF2BCC26F52A1A006A6D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3AF2BD226F76D46006A6D68 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		D3AF2BD426F772CA006A6D68 /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
+		D3AF2BD626F7818D006A6D68 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +66,12 @@
 				D3AF2BC026F52A18006A6D68 /* SceneDelegate.swift */,
 				D3AF2BC226F52A18006A6D68 /* ViewController.swift */,
 				D3AF2BC426F52A18006A6D68 /* Main.storyboard */,
+				D3AF2BD426F772CA006A6D68 /* AuthorViewController.swift */,
+				D3AF2BD226F76D46006A6D68 /* AboutViewController.swift */,
 				D3AF2BC726F52A1A006A6D68 /* Assets.xcassets */,
 				D3AF2BC926F52A1A006A6D68 /* LaunchScreen.storyboard */,
 				D3AF2BCC26F52A1A006A6D68 /* Info.plist */,
+				D3AF2BD626F7818D006A6D68 /* BullsEye.html */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3AF2BCB26F52A1A006A6D68 /* LaunchScreen.storyboard in Resources */,
+				D3AF2BD726F7818D006A6D68 /* BullsEye.html in Resources */,
 				D3AF2BC826F52A1A006A6D68 /* Assets.xcassets in Resources */,
 				D3AF2BC626F52A18006A6D68 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3AF2BC326F52A18006A6D68 /* ViewController.swift in Sources */,
+				D3AF2BD526F772CA006A6D68 /* AuthorViewController.swift in Sources */,
 				D3AF2BBF26F52A18006A6D68 /* AppDelegate.swift in Sources */,
+				D3AF2BD326F76D46006A6D68 /* AboutViewController.swift in Sources */,
 				D3AF2BC126F52A18006A6D68 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N5Y3A5AU85;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N5Y3A5AU85;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
